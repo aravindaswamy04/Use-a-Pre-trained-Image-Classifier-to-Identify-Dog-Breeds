@@ -1,0 +1,28 @@
+Questions regarding Uploaded Image Classification:
+
+1. Did the three model architectures classify the breed of dog in Dog_01.jpg to be the same breed? If not, report the differences in the classifications.
+
+Answer: Yes, the three model architectures classified the breed of dog in Dog_01.jpg to be the same breed.
+
+
+2. Did each of the three model architectures classify the breed of dog in Dog_01.jpg to be the same breed of dog as that model architecture classified Dog_02.jpg? If not, report the differences in the classifications.
+
+Answer: No, all three model architectures did not classify the breed of dog in Dog_01 to be the same breed of dog as Dog_02. 
+In vgg, it classified Dog_02 as a Chihuahua. 
+For resnet, it couldn't classify Dog_02 as a single option, 
+so it classified Dog_02 as cocker spaniel, english cocker spaniel, cocker. 
+For alexnet, it couldn't classify Dog_02 as a single option, 
+so it classified Dog_02 as pekinese, pekingese, peke.
+
+3. Did the three model architectures correctly classify Animal_Name_01.jpg and Object_Name_01.jpg to not be dogs? If not, report the misclassifications.
+
+Answer: Yes, the three model architectures correctly classified Animal_Name_01.jpg and Object_Name_01_jpg to not be dogs.
+
+4. Based upon your answers for questions 1. - 3. above, select the model architecture that you feel did the best at classifying the four uploaded images. Describe why you selected that model architecture as the best on uploaded image classification.
+
+Answer: Vgg is the best model architecture that is the best at classifying the four uploaded images.
+Even though all the three model architectures were almost the same, 
+there was a small difference in classifying Dog_02. Vgg classified Dog_02 
+as just a chihuahua (even though it's wrong), but the other two model architectures couldn't give a single breed option
+for Dog_02. Therefore vgg is the best option in classifying the four uploaded images.
+
