@@ -58,5 +58,5 @@ Input: Dictionary with calculated statistics and the total runtime.
 Output: Printed results.
 Description: This function prints the calculated statistics and the total runtime of the program.
 
-Results
+Results:
 By implementing the above functions and following the outlined steps, you will be able to classify pet images and evaluate the performance of different CNN architectures. The results will include the total runtime, number of correctly classified dog images, number of correctly classified non-dog images, and the number of correctly classified dog breeds.
